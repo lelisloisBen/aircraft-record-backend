@@ -34,7 +34,7 @@ class datarecord(db.Model):
     trainingGroup = db.Column(db.String(30))
     name = db.Column(db.String(40))
     hours = db.Column(db.String(3))
-    days = db.Column(db.Float(7, 2))
+    days = db.Column(db.Integer)
     sta = db.Column(db.String(1))
     anp = db.Column(db.Integer)
     insIni = db.Column(db.String(3))
